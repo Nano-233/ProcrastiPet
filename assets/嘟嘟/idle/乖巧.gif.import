@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://de2h2fbgtftka"
+path="res://.godot/imported/乖巧.gif-88e6ef8e59a48a5b971f3e2de0d07a15.tres"
+
+[deps]
+
+source_file="res://assets/嘟嘟/idle/乖巧.gif"
+dest_files=["res://.godot/imported/乖巧.gif-88e6ef8e59a48a5b971f3e2de0d07a15.tres"]
+
+[params]
+
+frames_per_second=30

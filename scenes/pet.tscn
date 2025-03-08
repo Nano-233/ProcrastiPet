@@ -1,0 +1,213 @@
+[gd_scene load_steps=29 format=3 uid="uid://6saif7o5kmn3"]
+
+[ext_resource type="Script" path="res://scripts/pet/Pet.cs" id="1_oo3uv"]
+[ext_resource type="Texture2D" uid="uid://g7bow7y6lmws" path="res://ui/Bars/XP BAR/green bar.jpg" id="2_2j4cb"]
+[ext_resource type="Texture2D" uid="uid://rw3m1av6uc8y" path="res://assets/嘟嘟/eat/嘟嘟吃薯片.png" id="2_e46jv"]
+[ext_resource type="Texture2D" uid="uid://d3qw628t58lo3" path="res://assets/嘟嘟/idle/嘟嘟乖巧.png" id="3_4c7f4"]
+[ext_resource type="Texture2D" uid="uid://bqtkuwet55iuf" path="res://ui/Bars/XP BAR/black bar.jpg" id="4_omcxm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kaejw"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(0, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mcryv"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(240, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3xbje"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(480, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l7fdd"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(720, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6a2up"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(960, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_crcgd"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(1200, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fnviy"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(1440, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oyixn"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(1680, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_otw1q"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(1920, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wby2p"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(2160, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2t1xd"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(2400, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ufqbv"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(2640, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aef6r"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(2880, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j6kjx"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(3120, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1626v"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(3360, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lqmw0"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(3600, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y3ms5"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(3840, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0wyi6"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(4080, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7hby1"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(4320, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_whspk"]
+atlas = ExtResource("2_e46jv")
+region = Rect2(4560, 0, 240, 240)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0q1jx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kaejw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mcryv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3xbje")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l7fdd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6a2up")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_crcgd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fnviy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oyixn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_otw1q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wby2p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2t1xd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ufqbv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aef6r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j6kjx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1626v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lqmw0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y3ms5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0wyi6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7hby1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_whspk")
+}],
+"loop": true,
+"name": &"eating",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_4c7f4")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="LabelSettings" id="LabelSettings_8hc1l"]
+font_size = 25
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_s8nhy"]
+
+[node name="Pet" type="Node2D"]
+position = Vector2(333, 246)
+script = ExtResource("1_oo3uv")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(9, 23)
+sprite_frames = SubResource("SpriteFrames_0q1jx")
+animation = &"idle"
+
+[node name="PetName" type="Label" parent="."]
+offset_left = -29.0
+offset_top = -135.0
+offset_right = 21.0
+offset_bottom = -100.0
+text = "嘟嘟"
+label_settings = SubResource("LabelSettings_8hc1l")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PetLevel" type="Label" parent="."]
+offset_left = 59.0
+offset_top = -135.0
+offset_right = 109.0
+offset_bottom = -100.0
+text = "LV 0"
+label_settings = SubResource("LabelSettings_8hc1l")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+offset_left = -68.0
+offset_top = -88.0
+offset_right = 82.0
+offset_bottom = -68.0
+texture_under = ExtResource("4_omcxm")
+texture_over = SubResource("CanvasTexture_s8nhy")
+texture_progress = ExtResource("2_2j4cb")
+
+[node name="FeedButton" type="Button" parent="."]
+offset_left = 108.0
+offset_top = -14.0
+offset_right = 153.0
+offset_bottom = 17.0
+text = "Feed"

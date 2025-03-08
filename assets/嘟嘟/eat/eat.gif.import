@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cpgeycuu5jy8b"
+path="res://.godot/imported/eat.gif-ddea1e3c45291b2d5579a385585c3e79.tres"
+
+[deps]
+
+source_file="res://assets/嘟嘟/eat/eat.gif"
+dest_files=["res://.godot/imported/eat.gif-ddea1e3c45291b2d5579a385585c3e79.tres"]
+
+[params]
+
+frames_per_second=30
